@@ -11,7 +11,7 @@ The context are Singapore's MRT Stations, but it is applicable to any train stat
 2. Detect for faces, and quantify the number of people approaching the entry and exit gantry.
 3. Depending on the parameters set, the number of entry and exit gantries will update automatically depending on the number of people.
 
-##Installation
+## Installation
 (Tested and working in a Python 3.9 miniconda3 environment on Windows 10 and Windows 11)
 1. pip install peekingduck
 2. git clone this repo
