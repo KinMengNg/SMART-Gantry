@@ -1,5 +1,7 @@
 # SMART-Gantry
 
+![demo_compressed](https://user-images.githubusercontent.com/85046928/216934870-4bd28f7c-9e69-41f9-bdf2-b48585137369.gif)
+
 Short for *System for Monitoring and Automated Regulation of Transit - Gantry*.
 Using AI Singapore's PeekingDuck computer vision library, the goal of this project is to automate the conversion of gantry entry and exit points based on the number of commuters entering and exiting a train station.
 
