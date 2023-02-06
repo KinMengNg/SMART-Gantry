@@ -24,5 +24,5 @@ The context is Singapore's MRT Stations, but it is applicable to any train stati
 3. run main.py
 
 ## Note
-If you want to move/resize the Turtle window, do it BEFORE the program starts the video inference loop. (ie. Do it before you enter the desired number of gantries)
-It is a Turtle limitation, not with our program. It will crash the program as it cannot handle external interactions while active in a loop.
+If you want to move/resize the Turtle window, do it BEFORE the program starts the video inference loop. (ie. Do it before you enter the desired number of gantries).
+This is a Turtle limitation, not with our program. It will crash the program as it cannot handle external interactions while active in a loop.
