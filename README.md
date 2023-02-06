@@ -11,10 +11,10 @@ This is just a proof of concept demo, it is not connected to any MRT stations ye
 The context is Singapore's MRT Stations, but it is applicable to any train station with CCTVs.
 
 ## Method
-1. Retrieve live video feed from the numerous CCTVs in Singapore's MRT station.
+1. Retrieve live video feed from the numerous CCTVs in Singapore's MRT station. (For the demo, we recorded our helpful classmates to simulate entering and exiting a gantry)
 2. Detect for faces, and quantify the number of people approaching the entry and exit gantry.
 3. The number of suitable entry and exit gantries will be calculated through the program by using condition based ratio.
-4. The gantry ratio output is feeded to the gantries to be updated. (For the demo, it is feeded to the gantry objects from gantry simulation)
+4. The gantry ratio output is feeded to the gantries to be updated. (For the demo, it is feeded to the gantry objects from the gantry_simulation.py)
 5. As a side function (for now), our program also gives an alert when a commuter is detected not wearing a mask. (A requirement when using Singapore public transport at the time of writing).
 
 ## Installation and Usage
