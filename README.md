@@ -11,12 +11,13 @@ The context is Singapore's MRT Stations, but it is applicable to any train stati
 ## Method
 1. Retrieve live video feed from the numerous CCTVs in Singapore's MRT station.
 2. Detect for faces, and quantify the number of people approaching the entry and exit gantry.
-3. The number of entry and exit gantries will update automatically depending on the number of people by finding a ratio.
+3. The number of suitable entry and exit gantries will be calculated through the program by using condition based ratio.
+4. The gantry ratio output is feeded to the gantries to be updated. (For the demo, it is feeded to the gantry objects from gantry simulation)
+5. As a side function (for now), our program also gives an alert when a commuter is detected not wearing a mask. (A requirement when using Singapore public transport at the time of writing).
 
-## Installation
+## Installation and Usage
 (Tested and working in a Python 3.9 miniconda3 environment on Windows 10 and Windows 11)
 1. pip install peekingduck
 2. git clone this repo
 3. run main.py
-
 
