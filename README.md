@@ -19,7 +19,7 @@ The context is Singapore's MRT Stations, but it is applicable to any train stati
 
 ## Installation and Usage
 (Tested and working in a Python 3.9 miniconda3 environment on Windows 10 and Windows 11)
-1. pip install peekingduck
+1. pip install peekingduck (If installation fails, please refer to here for detailed installation instructions https://peekingduck.readthedocs.io/en/stable/getting_started/index.html)
 2. git clone this repo
 3. run main.py
 
